@@ -1,0 +1,1 @@
+This is a simple personal website that contains my work as sound and visual experimental artist, as well as my work with digital audio.
