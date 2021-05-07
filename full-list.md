@@ -1,8 +1,13 @@
 __SOUNDTRACK__
 
-“Sem Abrigo” (Leonardo Remor) short, 2017  best short - critical jury, best montage, best photography and best actress for Rejane Arruda at the 46th Festival de Cinema de Gramado.
+“Sem Abrigo” (Leonardo Remor)
+
+short, 2017  best short - critical jury, best montage, best photography and best actress for Rejane Arruda at the 46th Festival de Cinema de Gramado.<br>
+
 https://www.imdb.com/title/tt8114480/fullcredits?ref_=tt_cl_sm#cast
-Credit: “V”, dpsmkr. 
+
+Credit: “V”, dpsmkr.
+
 
 “White” (Jaasiel Andrade) short, 2017
 https://www.youtube.com/watch?v=kHGcmemI0mQ
