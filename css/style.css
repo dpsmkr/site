@@ -1,13 +1,13 @@
-* {
-    font-family: monospace, sans-serif;
-}
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Mono:wght@400;700&display=swap');
 
 body {
     margin: 0;
     box-sizing: border-box;
+    font-family: 'Ubuntu Mono', monospace;
     background-color: #0f0f0f;
     color: whitesmoke;
-    font-size: 14px;
+    font-size: 16px;
+    width: 100%;
 }
 
 a,
@@ -28,7 +28,6 @@ a::after {
 #container {
     margin-left: auto;
     margin-right: auto;
-    min-width: 300px;
     max-width: 700px;
     padding-bottom: 33px;
 }
@@ -62,10 +61,13 @@ li {
     margin: 20px;
 }
 
-#about a:hover,
 #menu a {
     color: tomato;
     text-decoration: none;
+}
+
+#about .title a:hover {
+    color: crimson;
 }
 
 a:active,
@@ -113,6 +115,10 @@ a:hover,
     text-decoration: none;
 }
 
+#about .title a {
+    color: tomato;
+}
+
 .title a::before,
 #menu a::before,
 #foot a::before,
@@ -128,7 +134,7 @@ a:hover,
 }
 
 .para {
-    line-height: 1.5em;
+    line-height: 1.6em;
 }
 
 #beer a {
@@ -137,13 +143,13 @@ a:hover,
 
 /* tablet */
 @media only screen and (max-width: 768px){
-    body { font-size: 18px; }
+    body { font-size: 20px; }
 
     h1 { font-size: 2.1em; }
 
     h4 { font-size: 1.1em; }
         
-    #menu { font-size: 1.3em; padding-bottom: 0; }
+    #menu { font-size: 1.5em; padding-bottom: 0; }
 
     #container { padding: 0; margin-left: 20px; margin-right: 20px; max-width: 100%; }
 
@@ -152,7 +158,7 @@ a:hover,
 
 /* mobile */
 @media only screen and (max-width: 600px) {
-    body { font-size: 17px; }
+    body { font-size: 18px; }
 
     h1 { font-size: 1.5em; }
 
@@ -160,19 +166,17 @@ a:hover,
 
     ul, li { padding: 0; }
     
-    #menu { font-size: 1.1em; padding-bottom: 0; margin: 0; }
+    #menu { font-size: 1.5em; padding-bottom: 0; margin: 0; }
 
-    #menu a { font-size: 0.8em; padding: 0; margin: 0; }   
+    #menu a { font-size: 0.8em; padding: 5%; margin: 0;}   
 
-    #container { max-width: 100%; margin: 0; padding: 0; text-align: justify;}
+    #container { max-width: 100%; margin: 20px; padding: 0; text-align: justify; }
 
     #about, #sound, #visual, #dig-audio { padding: 20px; }
 
     #sound-works, #visual-experiments, #digital-audio { scroll-margin-top: 2.2em; }
 
-    .title, .sub { text-align: center;}
-
-    #about .title { padding-top: 20px; text-align: left;}
+    #about .title { padding-top: 25px; text-align: left;}
 
     .list-item { list-style-type: none; }
 }
