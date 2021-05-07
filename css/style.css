@@ -32,6 +32,10 @@ a::after {
     padding-bottom: 33px;
 }
 
+#container li {
+    padding-top: 0.5em;
+}
+
 #menu {
     font-size: 1.2em;
     text-align: center;
@@ -61,19 +65,19 @@ li {
     margin: 20px;
 }
 
-#menu a {
+#menu a,
+#about a,
+#about a:visited {
     color: tomato;
     text-decoration: none;
-}
-
-#about .title a:hover {
-    color: crimson;
 }
 
 a:active,
 a:hover,
 #menu a:hover,
-#foot a:hover {
+#foot a:hover,
+#about a:hover,
+#about .title a:hover {
     color: crimson;
 }
 
@@ -93,10 +97,6 @@ a:hover,
 #about {
     padding-top: 50px;
     text-align: justify;
-}
-
-#about a {
-    color: crimson;
 }
 
 #foot {
@@ -147,7 +147,7 @@ a:hover,
 
     h1 { font-size: 2.1em; }
 
-    h4 { font-size: 1.1em; }
+    h3 { font-size: 1.1em; }
         
     #menu { font-size: 1.5em; padding-bottom: 0; }
 
@@ -162,7 +162,7 @@ a:hover,
 
     h1 { font-size: 1.5em; }
 
-    h4 { font-size: 1em; }
+    h3 { font-size: 1em; }
 
     ul, li { padding: 0; }
     
