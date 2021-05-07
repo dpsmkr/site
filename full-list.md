@@ -1,4 +1,4 @@
-::: SOUNDTRACK :::
+__SOUNDTRACK__
 
 “Sem Abrigo” (Leonardo Remor) short, 2017
 best short - critical jury, best montage, best photography and best actress for Rejane Arruda at the 46th Festival de Cinema de Gramado.
@@ -15,7 +15,7 @@ Credit: “Sem Título”, dpsmkr.
 
 --- --- --- --- ---
 
-::: DIGITAL AUDIO :::
+__DIGITAL AUDIO__
 
 “This Is Canoas Not POA” (Wender Zanon) documentary, 2021
 https://www.youtube.com/watch?v=s9QQOOeqh0w
