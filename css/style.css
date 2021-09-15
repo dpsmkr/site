@@ -1,11 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Mono:wght@400;700&display=swap');
-
 body {
     margin: 0;
     box-sizing: border-box;
-    font-family: 'Ubuntu Mono', monospace;
-    background-color: #0f0f0f;
-    color: whitesmoke;
+    font-family: monospace;
+    background-color: #0c0c0c;
+    color: limegreen;
     font-size: 16px;
     width: 100%;
 }
@@ -13,21 +11,14 @@ body {
 a,
 a:visited {
     text-decoration: none;
-    color: tomato;
+    color: lime;
     font-weight: bold;
 }
 
 a:hover,
 a:active {
-    color: crimson;
-}
-
-a::before {
-    content: "< ";
-}
-
-a::after {
-    content: " >";
+    color: green;
+    text-decoration: underline;
 }
 
 #container {
@@ -48,7 +39,7 @@ a::after {
     position: fixed;
     top: 0;
     width: 100%;
-    background: #0d0d0d;
+    background: #000;
 }
 
 ul,
@@ -96,12 +87,6 @@ li {
 
 .list-item {
     list-style-type: circle;
-}
-
-.title a,
-.title a:hover,
-#foot a:hover {
-    text-decoration: none;
 }
 
 .title a::before,
