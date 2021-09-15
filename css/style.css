@@ -1,148 +1,200 @@
 body {
-    margin: 0;
-    box-sizing: border-box;
-    font-family: monospace;
-    background-color: #0c0c0c;
-    color: limegreen;
-    font-size: 16px;
-    width: 100%;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: monospace;
+  background-color: #0c0c0c;
+  color: limegreen;
+  font-size: 16px;
+  width: 100%;
 }
 
 a,
 a:visited {
-    text-decoration: none;
-    color: lime;
-    font-weight: bold;
+  text-decoration: none;
+  color: lime;
+  font-weight: bold;
 }
 
 a:hover,
 a:active {
-    color: green;
-    text-decoration: underline;
+  color: green;
+  text-decoration: underline;
 }
 
 #container {
-    margin-left: auto;
-    margin-right: auto;
-    max-width: 700px;
-    padding-bottom: 33px;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 700px;
+  padding-bottom: 33px;
 }
 
 #container li {
-    padding-top: 0.5em;
+  padding-top: 0.5em;
 }
 
 #menu {
-    font-size: 1.2em;
-    text-align: center;
-    overflow: hidden;
-    position: fixed;
-    top: 0;
-    width: 100%;
-    background: #000;
+  font-size: 1.2em;
+  text-align: center;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background: #000;
 }
 
 ul,
 li {
-    margin: 13px auto;
-    padding: 0;
+  margin: 13px auto;
+  padding: 0;
 }
 
 #menu ul {
-    list-style-type: none;
+  list-style-type: none;
 }
 
 #menu li {
-    display: inline;
+  display: inline;
 }
 
 #menu a {
-    padding: 10px;
-    margin: 20px;
+  padding: 10px;
+  margin: 20px;
 }
 
 #sound-works,
 #visual-experiments,
 #digital-audio {
-    scroll-margin-top: 1.9em;
+  scroll-margin-top: 1.9em;
 }
 
 #about,
 #sound,
 #visual,
 #dig-audio {
-    padding: 10px 50px;
+  padding: 10px 50px;
 }
 
 #about {
-    padding-top: 50px;
-    text-align: justify;
+  padding-top: 50px;
+  text-align: justify;
 }
 
 #foot {
-    text-align: center;
-    padding-top: 50px;
-    padding-bottom: 35px;
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 35px;
 }
 
 .list-item {
-    list-style-type: circle;
+  list-style-type: none;
 }
 
 .title a::before,
 #menu a::before,
 #foot a::before,
 #about a::before {
-    content: "";
+  content: "";
 }
 
 .title a::after,
 #menu a::after,
 #foot a::after,
 #about a::after {
-    content: "";
+  content: "";
 }
 
 .para {
-    line-height: 1.6em;
+  line-height: 1.6em;
 }
 
 /* tablet */
-@media only screen and (max-width: 768px){
-    body { font-size: 20px; }
+@media only screen and (max-width: 768px) {
+  body {
+    font-size: 20px;
+  }
 
-    h1 { font-size: 2.1em; }
+  h1 {
+    font-size: 2.1em;
+  }
 
-    h3 { font-size: 1.1em; }
-        
-    #menu { font-size: 1.5em; padding-bottom: 0; }
+  h3 {
+    font-size: 1.1em;
+  }
 
-    #container { padding: 0; margin-left: 20px; margin-right: 20px; max-width: 100%; }
+  #menu {
+    font-size: 1.5em;
+    padding-bottom: 0;
+  }
 
-    .list-item { list-style-type: none; }
-} 
+  #container {
+    padding: 0;
+    margin-left: 20px;
+    margin-right: 20px;
+    max-width: 100%;
+  }
+
+  .list-item {
+    list-style-type: none;
+  }
+}
 
 /* mobile */
 @media only screen and (max-width: 600px) {
-    body { font-size: 18px; }
+  body {
+    font-size: 18px;
+  }
 
-    h1 { font-size: 1.5em; }
+  h1 {
+    font-size: 1.5em;
+  }
 
-    h3 { font-size: 1em; }
+  h3 {
+    font-size: 1em;
+  }
 
-    ul, li { padding: 0; }
-    
-    #menu { font-size: 1.5em; padding-bottom: 0; margin: 0; }
+  ul,
+  li {
+    padding: 0;
+  }
 
-    #menu a { font-size: 0.8em; padding: 5%; margin: 0;}   
+  #menu {
+    font-size: 1.5em;
+    padding-bottom: 0;
+    margin: 0;
+  }
 
-    #container { max-width: 100%; margin: 20px; padding: 0; text-align: justify; }
+  #menu a {
+    font-size: 0.8em;
+    padding: 5%;
+    margin: 0;
+  }
 
-    #about, #sound, #visual, #dig-audio { padding: 20px; }
+  #container {
+    max-width: 100%;
+    margin: 20px;
+    padding: 0;
+    text-align: justify;
+  }
 
-    #sound-works, #visual-experiments, #digital-audio { scroll-margin-top: 2.2em; }
+  #about,
+  #sound,
+  #visual,
+  #dig-audio {
+    padding: 20px;
+  }
 
-    #about .title { padding-top: 25px; text-align: left;}
+  #sound-works,
+  #visual-experiments,
+  #digital-audio {
+    scroll-margin-top: 2.2em;
+  }
 
-    .list-item { list-style-type: none; }
+  #about .title {
+    padding-top: 25px;
+    text-align: left;
+  }
+
+  .list-item {
+    list-style-type: none;
+  }
 }
