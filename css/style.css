@@ -22,55 +22,20 @@ a:active {
 }
 
 #container {
+  position: absolute;
+  border-radius: 10px;
+  top: 5%;
+  left: 0;
+  right: 0;
+  z-index: 1;
+  background-color: rgba(0, 0, 0, 0.7);
   margin-left: auto;
   margin-right: auto;
   max-width: 700px;
   padding-bottom: 33px;
 }
 
-#container li {
-  padding-top: 0.5em;
-}
-
-#menu {
-  font-size: 1.2em;
-  text-align: center;
-  overflow: hidden;
-  position: fixed;
-  top: 0;
-  width: 100%;
-  background: #000;
-}
-
-ul,
-li {
-  margin: 13px auto;
-  padding: 0;
-}
-
-#menu ul {
-  list-style-type: none;
-}
-
-#menu li {
-  display: inline;
-}
-
-#menu a {
-  padding: 10px;
-  margin: 20px;
-}
-
-#sound-works,
-#visual-experiments,
-#digital-audio {
-  scroll-margin-top: 1.9em;
-}
-
-#about,
-#sound,
-#visual,
-#dig-audio {
+#about {
   padding: 10px 50px;
 }
 
@@ -83,24 +48,6 @@ li {
   text-align: center;
   padding-top: 50px;
   padding-bottom: 35px;
-}
-
-.list-item {
-  list-style-type: none;
-}
-
-.title a::before,
-#menu a::before,
-#foot a::before,
-#about a::before {
-  content: "";
-}
-
-.title a::after,
-#menu a::after,
-#foot a::after,
-#about a::after {
-  content: "";
 }
 
 .para {
@@ -117,24 +64,11 @@ li {
     font-size: 2.1em;
   }
 
-  h3 {
-    font-size: 1.1em;
-  }
-
-  #menu {
-    font-size: 1.5em;
-    padding-bottom: 0;
-  }
-
   #container {
     padding: 0;
     margin-left: 20px;
     margin-right: 20px;
     max-width: 100%;
-  }
-
-  .list-item {
-    list-style-type: none;
   }
 }
 
@@ -148,27 +82,6 @@ li {
     font-size: 1.5em;
   }
 
-  h3 {
-    font-size: 1em;
-  }
-
-  ul,
-  li {
-    padding: 0;
-  }
-
-  #menu {
-    font-size: 1.5em;
-    padding-bottom: 0;
-    margin: 0;
-  }
-
-  #menu a {
-    font-size: 0.8em;
-    padding: 5%;
-    margin: 0;
-  }
-
   #container {
     max-width: 100%;
     margin: 20px;
@@ -176,21 +89,11 @@ li {
     text-align: justify;
   }
 
-  #about,
-  #sound,
-  #visual,
-  #dig-audio {
+  #about {
     padding: 20px;
   }
 
-  #sound-works,
-  #visual-experiments,
-  #digital-audio {
-    scroll-margin-top: 2.2em;
-  }
-
   #about .title {
-    padding-top: 25px;
     text-align: left;
   }
 
