@@ -1,6 +1,6 @@
 let pts = [];
 var canvas;
-let r1, r2, g1, g2, b1, b2, mult;
+let g1, g2, b1, b2, mult;
 
 function setup() {
   canvas = createCanvas(windowWidth, windowHeight);
