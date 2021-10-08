@@ -1,6 +1,6 @@
 let pts = [];
 var canvas;
-let mult;
+let r1, r2, g1, g2, b1, b2, mult;
 
 function setup() {
   canvas = createCanvas(windowWidth, windowHeight);
@@ -19,6 +19,11 @@ function setup() {
       pts.push(p);
     }
   }
+
+  g1 = random(50);
+  g2 = random(175);
+  b1 = random(5);
+  b2 = random(50);
 }
 
 function draw() {
@@ -30,7 +35,8 @@ function draw() {
   mult = random(0.002, 0.01);
 
   for (let i = 0; i < pts.length; i++) {
-    let r = map(pts[i].x, 0, width);
+    let g = map(pts[i].y, 0, height, g1, g2);
+    let b = map(pts[i].x, 0, width, b1, b2);
     let angle = map(
       noise(pts[i].x * mult, pts[i].y * mult),
       0,
@@ -40,7 +46,7 @@ function draw() {
     );
     pts[i].add(createVector(cos(angle), sin(angle)));
 
-    fill(255, random(50), 0);
+    fill(255, g, b);
     ellipse(pts[i].x, pts[i].y, 0.42);
   }
   pop();
