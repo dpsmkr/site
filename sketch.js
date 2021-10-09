@@ -26,6 +26,10 @@ function setup() {
   b2 = random(50);
 }
 
+function windowResized() {
+  resizeCanvas(windowWidth, windowHeight);
+}
+
 function draw() {
   noStroke();
   mult = random(0.002, 0.01);
@@ -50,8 +54,4 @@ function draw() {
     ellipse(pts[i].x, pts[i].y, 0.42);
   }
   pop();
-}
-
-function windowResized() {
-  resizeCanvas(windowWidth, windowHeight);
 }
