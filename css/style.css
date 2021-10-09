@@ -68,6 +68,11 @@ a:active {
   font-size: 0.8em;
 }
 
+.bi-telegram,
+.bi-github {
+  font-size: 1.2em;
+}
+
 /* tablets */
 @media only screen and (min-width: 481px) and (max-width: 768px) {
   body {
@@ -104,6 +109,7 @@ a:active {
     max-width: 90%;
     min-height: 90%;
     padding: 5px 5px 13px 5px;
+    border-radius: 30px;
   }
 
   #about {
