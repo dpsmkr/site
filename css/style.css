@@ -1,8 +1,9 @@
 body {
   margin: 0;
+  padding: 0;
   box-sizing: border-box;
+  background: rgb(20, 20, 20);
   font-family: monospace;
-  background-color: #0c0c0c;
   color: limegreen;
   font-size: 14px;
   width: 100%;
@@ -11,7 +12,7 @@ body {
 a,
 a:visited {
   text-decoration: none;
-  color: lime;
+  color: rgb(255, 75, 0);
   font-weight: bold;
   text-transform: uppercase;
 }
@@ -28,8 +29,13 @@ a:active {
   top: 5%;
   right: 0;
   left: 0;
-  background-color: rgba(0, 0, 0, 0.6);
-  border-radius: 10px;
+  background: rgba(1, 1, 1, 0.9);
+  background: radial-gradient(
+    circle,
+    rgba(8, 4, 2, 0.7) 0%,
+    rgba(8, 7, 3, 0.7) 100%
+  );
+  border-radius: 50px;
   margin: auto;
   padding-bottom: 33px;
   max-width: 680px;

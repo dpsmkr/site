@@ -4,6 +4,7 @@ let g1, g2, b1, b2, mult;
 
 function setup() {
   canvas = createCanvas(windowWidth, windowHeight);
+  background(20, 10);
   canvas.position(0, 0);
   canvas.style("zindex", "-1");
   frameRate(60);
@@ -50,8 +51,8 @@ function draw() {
     );
     pts[i].add(createVector(cos(angle), sin(angle)));
 
-    fill(255, g, b);
-    ellipse(pts[i].x, pts[i].y, 0.42);
+    fill(255, g, b, 50);
+    ellipse(pts[i].x, pts[i].y, 1);
   }
   pop();
 }
