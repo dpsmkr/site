@@ -58,6 +58,10 @@ a:active {
   letter-spacing: 0.5em;
 }
 
+.bi-peace {
+  font-size: 0.8em;
+}
+
 /* tablets */
 @media only screen and (min-width: 481px) and (max-width: 768px) {
   body {
@@ -102,9 +106,5 @@ a:active {
 
   #foot {
     font-size: 1.2em;
-  }
-
-  .bi-peace {
-    font-size: 0.8em;
   }
 }
