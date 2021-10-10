@@ -41,10 +41,12 @@ a:active {
   max-width: 680px;
   min-height: 30%;
   max-height: 60%;
+  line-height: 1.5em;
 }
 
 #about {
   padding: 10px 50px;
+  margin-bottom: 30px;
   text-align: justify;
 }
 
@@ -54,14 +56,8 @@ a:active {
   left: 0;
   right: 0;
   bottom: 0;
-}
-
-.para {
-  line-height: 1.6em;
-}
-
-.links {
   letter-spacing: 0.5em;
+  line-height: 1.6em;
 }
 
 .bi-peace {
